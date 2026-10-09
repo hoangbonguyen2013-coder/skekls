@@ -1,1 +1,16 @@
-
+{
+  "schemaVersion": 1,
+  "id": "creeperlore",
+  "version": "${version}",
+  "name": "Creeper Spawner Lore",
+  "description": "Tooltip nhieu dong cho kinh xanh la / xanh chanh (client only).",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["vn.creeperlore.CreeperLoreClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
